@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pandas
+torch
+sentence-transformers==2.2.2
