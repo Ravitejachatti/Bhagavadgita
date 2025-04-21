@@ -37,7 +37,7 @@ def find_matching_slokas(quote, top_k=3):
 demo = gr.Interface(
     fn=find_matching_slokas,
     inputs=[
-        gr.Textbox(label="Enter a Motivational Quote", placeholder="e.g., What is the meaning of life?"),
+        gr.Textbox(label="Enter a Motivational Quote", placeholder="e.g., I believe we are here to make the world a better place for all."),
         gr.Slider(1, 5, step=1, label="Top K Slokas")
     ],
     outputs="markdown",
